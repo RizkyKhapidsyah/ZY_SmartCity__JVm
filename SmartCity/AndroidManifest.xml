@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.wilis"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.wilis.MainUtama"
+            android:label="Aplikasi Lokasi" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="RsArifin" android:label="Rumah Sakit Arifin Achmad">
+        </activity>
+        <activity
+            android:name="RsEka" android:label="Rumah Sakit Eka Hospital">
+        </activity>
+        <activity
+            android:name="RsEriaBunda" android:label="Rumah Sakit Eria">
+        </activity>
+        <activity
+            android:name="RsHotel" android:label="List Hotel">
+        </activity>
+        <activity
+            android:name="RsIbnu" android:label="Rumah Sakit Ibnu Sina">
+        </activity>
+        <activity
+            android:name="rsjava" android:label="List Rumah Sakit">
+        </activity>
+        <activity
+            android:name="RsjiwaTampan" android:label="Rumah Sakit Jiwa Tampan">
+        </activity>
+        
+        
+    </application>
+
+</manifest>
